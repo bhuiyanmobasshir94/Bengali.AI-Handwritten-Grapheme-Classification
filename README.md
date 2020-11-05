@@ -11,3 +11,15 @@ For this competition, you’re given the image of a handwritten Bengali grapheme
 By participating in the competition, you’ll hopefully accelerate Bengali handwritten optical character recognition research and help enable the digitalization of educational resources. Moreover, the methods introduced in the competition will also empower cousin languages in the Indian subcontinent.</p>
 
 Challenge and dataset summary available at https://arxiv.org/abs/2010.00170
+
+
+## Resources
+1. [iterative-stratification](https://github.com/trent-b/iterative-stratification)
+
+## Issues
+1. [Regarding parquet](https://stackoverflow.com/a/50933430/7195890)
+2. [Solve about parquet](https://stackoverflow.com/a/47036357/7195890)
+3. Needed to install snappy to work with fastparquet engine-
+```
+conda install python-snappy
+```
