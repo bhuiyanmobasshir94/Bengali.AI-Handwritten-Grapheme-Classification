@@ -23,3 +23,9 @@ Challenge and dataset summary available at https://arxiv.org/abs/2010.00170
 ```
 conda install python-snappy
 ```
+
+## hacks
+- Run python standalone file from a module
+```
+python -m module.file_name
+```
