@@ -15,6 +15,7 @@ Challenge and dataset summary available at https://arxiv.org/abs/2010.00170
 
 ## Resources
 1. [iterative-stratification](https://github.com/trent-b/iterative-stratification)
+2. [pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch)
 
 ## Issues
 1. [Regarding parquet](https://stackoverflow.com/a/50933430/7195890)
