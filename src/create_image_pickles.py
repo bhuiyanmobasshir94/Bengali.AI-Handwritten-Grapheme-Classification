@@ -7,7 +7,8 @@ from tqdm import tqdm
 if __name__ == "__main__":
     files = glob.glob("inputs/train_*.parquet")
     for f in files:
-        df = pd.read_parquet(f, engine="fastparquet")
+        # df = pd.read_parquet(f, engine="fastparquet") ## For windows
+        df = pd.read_parquet(f) ## For linux
         image_ids = df.image_id.values
         df = df.drop("image_id", axis=1)
         image_array = df.values
