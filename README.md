@@ -23,6 +23,10 @@ Challenge and dataset summary available at https://arxiv.org/abs/2010.00170
 ```
 conda install python-snappy
 ```
+To install Torch
+```
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+```
 
 ## hacks
 - Run python standalone file from a module
